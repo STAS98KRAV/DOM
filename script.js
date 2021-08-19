@@ -1,7 +1,7 @@
 'use strickt';
 const allbooks = document.querySelectorAll('.books');
 const book = document.querySelectorAll('.book');
-const bookTitle = document.querySelectorAll('h2');
+const bookTitle = document.querySelectorAll('a');
 console.log(bookTitle);
 console.log(book);
 console.log(allbooks);
@@ -13,11 +13,11 @@ book[5].after(book[2]);
 //картинка
 const bgi = document.querySelector('body');
 console.log(bgi);
-bgi.style.backgroundImage = 'url(/Users/user/Desktop/LESSON10/image/you-dont-know-js.jpg)';
+bgi.style.backgroundImage = 'url(image/you-dont-know-js.jpg)';
 
 //название книги 3
 bookTitle[4].textContent = 'Книга 3. this и Прототипы Объектов';
-bookTitle[4].style.color = 'darkkhaki';
+//bookTitle[4].style.color = 'darkkhaki';
 
 //удаление рекламы
 const adv = document.querySelector('.adv');
